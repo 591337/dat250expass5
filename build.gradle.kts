@@ -22,6 +22,8 @@ dependencies {
 	implementation(kotlin("stdlib-jdk8"))
 	developmentOnly("org.springframework.boot:spring-boot-devtools")
 	implementation("org.springframework.boot:spring-boot-starter-thymeleaf")
+	implementation("org.springframework.boot:spring-boot-starter-data-jpa")
+	runtimeOnly("com.h2database:h2")
 }
 
 tasks.withType<Test> {
